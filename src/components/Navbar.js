@@ -16,7 +16,7 @@ const Navbar = () => {
     <Fragment>
       <AppBar position="static">
         <Toolbar className={classes.bg}>
-          <img src={logo} />
+          <img src={logo} alt='' />
         </Toolbar>
       </AppBar>
     </Fragment>

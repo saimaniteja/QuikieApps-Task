@@ -24,7 +24,7 @@ const Home = () => {
   };
 
   const tableData = [];
-  apidata && apidata.data.map((data) => {
+  apidata && apidata.data.map(data => {
     let formData = {};
     formData = {
       description: data.description,
@@ -105,17 +105,17 @@ const Home = () => {
       >
         <div className="cardHero">
           <Grid item xs={12} md={4}>
-            <HeroCard img={GOOGL} title={"GOOGL"} value={"1515 USD"} />
+            <HeroCard img={GOOGL} title={"GOOGL"} value={"1515 USD"} alt='' />
           </Grid>
         </div>
         <div className="cardHero">
           <Grid item xs={12} md={4}>
-            <HeroCard img={FB} title={"FB"} value={"266 USD"} />
+            <HeroCard img={FB} title={"FB"} value={"266 USD"} alt='' />
           </Grid>
         </div>
         <div className="cardHero">
           <Grid item xs={12} md={4}>
-            <HeroCard img={AMZN} title={"AMZN"} value={"3116 USD"} />
+            <HeroCard img={AMZN} title={"AMZN"} value={"3116 USD"} alt='' />
           </Grid>
         </div>
       </Grid>
