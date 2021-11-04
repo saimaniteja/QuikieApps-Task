@@ -24,6 +24,7 @@ const Home = () => {
   };
 
   const tableData = [];
+  // eslint-disable-next-line
   apidata && apidata.data.map(data => {
     let formData = {};
     formData = {

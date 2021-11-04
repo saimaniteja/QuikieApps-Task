@@ -1,5 +1,5 @@
 {
-  "name": "CryptoCurrency-Listing",
+  "name": "crypto-currency-listing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI= react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "s3:create-bucket": "aws s3 mb s3://$BUCKET",

@@ -24,7 +24,7 @@ const HeroCard = ({ img, title, value }) => {
         }}
       >
         <h3 style={{ fontSize: "25px" }}>{title}</h3>
-        <img src={img} style={{ height: "70px", width: "70px" }} />
+        <img src={img} style={{ height: "70px", width: "70px" }} alt='' />
       </div>
 
       <div>
