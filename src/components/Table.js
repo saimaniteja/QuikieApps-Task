@@ -10,7 +10,6 @@ const Table = ({ columnData, tableData }) => {
         data={tableData}
         options={{
           search: true,
-          pageSizeOptions: [5,10,20,30,50, tableData.length]
           
         }}
       />
